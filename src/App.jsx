@@ -12,8 +12,6 @@ function App() {
 	const [error, setError] = useState(false);
 	const [hasSent, setHasSent] = useState(false);
 
-
-
 	const checkValue = (event) => {
 		event.preventDefault();
 		if (!values.name || !values.surname || !values.email) {
@@ -24,8 +22,6 @@ function App() {
 
 		setHasSent(true);
 	}
-
-
 
   return (
     <div className="form-container">

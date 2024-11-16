@@ -1,5 +1,4 @@
 .form-container {
-  /* text-align: center; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -33,15 +32,6 @@ input {
 	border: 0;
 	box-sizing: border-box;
 }
-
-/* input:active {
-	border-color: none;
-} */
-/* 
-input [type = 'button']{
-	padding: 8px 0 !important;
-	border-radius: 7%;
-} */
 
 label {
 	text-align: left;
